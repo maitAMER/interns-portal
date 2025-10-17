@@ -1,0 +1,30 @@
+.profile-card {
+max-width: 320px;
+margin: 20px auto;
+border: none;
+border-radius: 15px;
+transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+transform: translateY(-5px);
+}
+
+.profile-card img {
+width: 120px;
+height: 120px;
+object-fit: cover;
+border: 3px solid #007bff;
+}
+
+.social-icons i {
+font-size: 1.3rem;
+margin: 0 8px;
+color: #007bff;
+cursor: pointer;
+transition: color 0.2s ease;
+}
+
+.social-icons i:hover {
+color: #0056b3;
+}
